@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  body {
+    background-color: #4eb1ad;
+    background-image: url("https://cdn.pixabay.com/photo/2016/06/17/06/04/background-1462755_640.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Dosis', sans-serif;
+   
+   }
+
+    header, main, footer {
+    padding: 30px;
+  }
+  
+  header {
+    border-radius: 15%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1%;
+  }
+  
+  header img {
+    border-radius: 40%;
+    height: 23vh;
+   }
+  
+  header ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+  }
+  
+  header ul li {
+    padding: 10px;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 155%;
+    
+  }
+  
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+      
+  }
+
+  footer {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  footer div nav ul {
+    list-style: none;
+  
+  }
+  
+  footer div nav ul li {
+    padding: 10px;
+    margin: 5px;
+    display: flex ;
+    justify-content: space-around;
+    align-items: center;
+    text-align: justify;
+    
+    }
+
+  .linkgit {
+      text-decoration: none;
+      color: black;
+  }
+  .linkmail {
+    text-decoration: none;
+    color: black;
+}
+
+
+  .Acerca {
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid black;
+    padding: 10px;
+    margin: 50px;
+    border-radius: 10%;
+    background-color: rgba(212, 233, 233, 0.48);
+    
+  }
+  .Acerca h2 {
+    text-align: left;
+  }
+  
+  .Acerca p {
+    text-align: justify;
+    line-height: 150%;
+    
+  }
+
+  .Sinopsis {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 100px;
+    border-radius: 10%;
+    display: flex;
+    display: grid;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(212, 233, 233, 0.48);
+    gap: 10px;
+    color: black;
+    border-color: blue; 
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3IC_IsViWQ1HWI2ZtNlX-hRlh3PcPgqQLmg&usqp=CAU");
+    background-size: contain;
+    background-repeat: round;
+    height: 90vh;         
+  }
+
+ 
+  .Sinopsis h2 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(235, 234, 240);
+
+  }
+  
+  .Sinopsis p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 150%;
+    font-size: 25px;
+    color: rgb(235, 234, 240);
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+  }
+  
+ 
+  .Mirá {
+    border: 2px solid black;
+    padding: 20px;
+    margin: 50px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(212, 233, 233, 0.48);
+    gap: 10px;
+      
+    }
+
+  .Mirá img  {
+    border-radius: 40%;
+    height: 20vh;    
+    }
+
+  .Mirá h3  {
+    font-size: 45px;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+     
+  .Mirá h4 {
+    font-size: 35px;
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+  }
+  
+  
+  .Personajes {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 30px;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      border: 2px solid black;
+      padding: 10px;
+      margin: 50px;
+      border-radius: 10%;
+      background-color: rgba(119, 134, 161, 0.877);
+      color: rgb(235, 234, 240);
+    }
+    
+  .tarjeta {
+      border: 1px solid black;
+      margin: 10px;
+      background-color: rgba(119, 134, 161, 0.877);
+      color: rgb(20, 21, 68);
+      border-radius: 5px;
+      border: 2px solid rgb(20, 44, 53);
+      margin: 20px;
+      padding: 10px;
+      width: 200px;
+      text-align: center;
+    }
+    
+  .nombre-personaje {
+    color: rgb(235, 234, 240);
+    
+
+    }
+    
+  .tarjeta img {
+      border-radius: 20%;
+      width: 160px;
+      padding: 5px;
+      
+  }
+
+  .contenedor {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 20px;
+    
+}
+  
